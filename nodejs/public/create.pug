@@ -1,0 +1,15 @@
+html
+  head
+    title Create new item
+  body
+    h1 Create new item
+    form(action='/insert' method='post')
+      p Name:
+        input(name='name')
+        br
+        br
+      p Deatils:
+        input(name='details')
+        br
+        br 
+        input(type='submit' value='Create new item')

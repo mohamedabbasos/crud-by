@@ -1,0 +1,23 @@
+html
+  head
+    title list of all items
+  body
+    h1 list of all items
+    a(href='/create') New item
+    br
+    br
+    table(border='2')
+      tr
+        td ID
+        td Name
+        td Edit
+        td Delete
+      each item in items
+        tr
+          td #{item.id}
+          td 
+            a(href="/profile/" + item.id) #{item.name}
+          td 
+            a(href="/edit/" + item.id) Edit
+          td 
+            a(href="/delete/" + item.id) Delete

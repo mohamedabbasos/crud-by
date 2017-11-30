@@ -1,0 +1,15 @@
+html
+  head
+    title Update item info
+  body
+    h1 Update item info
+    form(action='/update/'+item.id method='post')
+      p Name:
+        input(name='name' value=item.name)
+        br
+        br
+      p Deatils:
+        input(name='details' value=item.details)
+        br
+        br 
+        input(type='submit' value='Update item info')
