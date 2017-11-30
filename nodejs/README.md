@@ -1,4 +1,4 @@
-# crud-by PHP
+# crud-by Node.js
 Simple CRUD using Nodejs (Express & MySQL)
 
 # How to use
